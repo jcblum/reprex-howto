@@ -12,7 +12,7 @@ Questions discussed here often involve working with data. How do you include dat
 	- [Post your data online](#heading--online)
 	- [Other options](#heading--other)
 	
-<h2 id="heading--tryfirst">Try this first: _Don't_ use your own data</h2>
+<h2 id="heading--tryfirst">Try this first: Don't_ use your own data</h2>
 
 It's natural to start out trying to make a reprex using the data you are already working with, but many questions don't actually depend on the details of your particular data. Your reprex will often be simpler and easier for others to understand if you _don't_ use your own data at all.
 
@@ -177,6 +177,7 @@ sea_stars
 
 - Annotated bibliography of other reprex data links
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2ODM1ODk0MiwtMTg4Mjk3NDA4MCwtMT
-IwMDk4NjQ4MCwzMTg0NDY5ODIsLTQyODc0ODI0OV19
+eyJoaXN0b3J5IjpbMTE2NDE0Nzk5MSwtMzY4MzU4OTQyLC0xOD
+gyOTc0MDgwLC0xMjAwOTg2NDgwLDMxODQ0Njk4MiwtNDI4NzQ4
+MjQ5XX0=
 -->
