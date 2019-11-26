@@ -137,7 +137,7 @@ sea_stars
 
 #### Pros & Cons
 
-:heavy_plus_sign: Built in to R, does not require installing any packages
+:heavy_plus_sign: Built in to R, does not require installing any packages  
 :heavy_plus_sign: Handles many different column types
 
 :heavy_minus_sign: Output is not very readable, may get formatted sub-optimally by RStudio
@@ -177,7 +177,7 @@ sea_stars
 
 - Annotated bibliography of other reprex data links
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTYyODEzMjMsLTE1MzAyMDQ1OSwtMz
-Y4MzU4OTQyLC0xODgyOTc0MDgwLC0xMjAwOTg2NDgwLDMxODQ0
-Njk4MiwtNDI4NzQ4MjQ5XX0=
+eyJoaXN0b3J5IjpbLTc2NjM2NTg3LC0xNTMwMjA0NTksLTM2OD
+M1ODk0MiwtMTg4Mjk3NDA4MCwtMTIwMDk4NjQ4MCwzMTg0NDY5
+ODIsLTQyODc0ODI0OV19
 -->
