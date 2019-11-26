@@ -45,7 +45,7 @@ It can take a little thinking to reimagine your problem in terms of a built-in d
 
 3. Compose your reprex using the built-in data set. Replace references to your own data frame with the name of the built-in data set, and make sure to use the built-in data set's column names instead of the ones from your own data.
 
-<h3 id="heading--">Generate a small example data set</h3>
+<h3 id="heading--generate">Generate a small example data set</h3>
 
 R makes it pretty easy to construct small data frames by hand. Here are some tips on how to do it:
 
@@ -133,7 +133,7 @@ sea_stars
 
 <h2 id="heading--owndata">Use your own data</h2>
 
-<h3 id="heading--dput"><a href=""><code>dput()</code> Method</a></h3>
+<h3 id="heading--dput"><a href="reprexdata_dput.md"><code>dput()</code> Method</a></h3>
 
 #### Pros & Cons
 
@@ -143,7 +143,7 @@ sea_stars
 :heavy_minus_sign: Output is not very readable, may get formatted sub-optimally by RStudio
 :heavy_minus_sign: Requires tweaking to use with `data.table` objects
 
-<h3 id="heading--datapasta"><a href=""><code>datapasta</code> Method</a></h3>
+<h3 id="heading--datapasta"><a href="reprexdata_datapasta.md"><code>datapasta</code> Method</a></h3>
 
 #### Pros & Cons
 
@@ -154,7 +154,7 @@ sea_stars
 :heavy_minus_sign: Only works when using the RStudio Desktop IDE (won't work on RStudio Server, RStudio Cloud, or in other editors)
 :heavy_minus_sign: Handles a limited variety of common column types
 
-<h3 id="heading--readtsv"><a href=""><code>read_tsv()</code> Method</a></h3>
+<h3 id="heading--readtsv"><a href="reprexdata_readr.md"><code>read_tsv()</code> Method</a></h3>
 
 #### Pros & Cons
 
@@ -164,7 +164,7 @@ sea_stars
 :heavy_minus_sign: Handles a limited variety of common column types
 :heavy_minus_sign: Only handles cases where data is already in a spreadsheet
 
-<h3 id="heading--online"><a href="">Post your data online</a></h3>
+<h3 id="heading--online"><a href="reprexdata_remote.md">Post your data online</a></h3>
 
 #### Pros & Cons
 
@@ -177,6 +177,6 @@ sea_stars
 
 - Annotated bibliography of other reprex data links
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjUwMTM1NDUsLTE4ODI5NzQwODAsLT
-EyMDA5ODY0ODAsMzE4NDQ2OTgyLC00Mjg3NDgyNDldfQ==
+eyJoaXN0b3J5IjpbLTM2ODM1ODk0MiwtMTg4Mjk3NDA4MCwtMT
+IwMDk4NjQ4MCwzMTg0NDY5ODIsLTQyODc0ODI0OV19
 -->
