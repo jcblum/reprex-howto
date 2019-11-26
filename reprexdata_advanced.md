@@ -12,13 +12,13 @@ Questions discussed here often involve working with data. How do you include dat
 	- [Post your data online](#heading--online)
 	- [Other options](#heading--other)
 	
-## Try this first: _Don't_ use your own data
+<h2 id="heading--tryfirst">Try this first: _Don't_ use your own data</h2>
 
 It's natural to start out trying to make a reprex using the data you are already working with, but many questions don't actually depend on the details of your particular data. Your reprex will often be simpler and easier for others to understand if you _don't_ use your own data at all.
 
 See if you can make one of these options work, first! :grinning:
 
-### Use a built-in data set
+<h3 id="heading--builtin">Use a built-in data set</h3>
 
 R and its core packages come with lots of data sets already built in! Other packages often include even more built-in data sets. These data sets have usually been specifically chosen to make it easy to show how things work.
 
@@ -45,7 +45,7 @@ It can take a little thinking to reimagine your problem in terms of a built-in d
 
 3. Compose your reprex using the built-in data set. Replace references to your own data frame with the name of the built-in data set, and make sure to use the built-in data set's column names instead of the ones from your own data.
 
-### Generate a small example data set
+<h3 id="heading--">Generate a small example data set</h3>
 
 R makes it pretty easy to construct small data frames by hand. Here are some tips on how to do it:
 
@@ -177,6 +177,6 @@ sea_stars
 
 - Annotated bibliography of other reprex data links
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODI5NzQwODAsLTEyMDA5ODY0ODAsMz
-E4NDQ2OTgyLC00Mjg3NDgyNDldfQ==
+eyJoaXN0b3J5IjpbLTE2NjUwMTM1NDUsLTE4ODI5NzQwODAsLT
+EyMDA5ODY0ODAsMzE4NDQ2OTgyLC00Mjg3NDgyNDldfQ==
 -->
