@@ -147,21 +147,21 @@ sea_stars
 
 #### Pros & Cons
 
-:heavy_plus_sign: Excellent if you have data in a spreadsheet or an existing data frame
+:heavy_plus_sign: Excellent if you have data in a spreadsheet or an existing data frame  
 :heavy_plus_sign: Very readable output
 
-:heavy_minus_sign: Requires installing a package
-:heavy_minus_sign: Only works when using the RStudio Desktop IDE (won't work on RStudio Server, RStudio Cloud, or in other editors)
-:heavy_minus_sign: Handles a limited variety of common column types
+:heavy_minus_sign: Requires installing a package  
+:heavy_minus_sign: Only works when using the RStudio Desktop IDE (won't work on RStudio Server, RStudio Cloud, or in other editors)  
+:heavy_minus_sign: Handles a limited variety of common column types  
 
 <h3 id="heading--readtsv"><a href="reprexdata_readr.md"><code>read_tsv()</code> Method</a></h3>
 
 #### Pros & Cons
 
-:heavy_plus_sign: Works in situations where `datapasta` fails (e.g., RStudio Server and RStudio Cloud)
+:heavy_plus_sign: Works in situations where `datapasta` fails (e.g., RStudio Server and RStudio Cloud)  
 :heavy_plus_sign: If you already have `tidyverse` installed, then you're set
 
-:heavy_minus_sign: Handles a limited variety of common column types
+:heavy_minus_sign: Handles a limited variety of common column types  
 :heavy_minus_sign: Only handles cases where data is already in a spreadsheet
 
 <h3 id="heading--online"><a href="reprexdata_remote.md">Post your data online</a></h3>
@@ -170,14 +170,14 @@ sea_stars
 
 :heavy_plus_sign: Allows you to demonstrate problems that depend on specific, non-tiny data sets
 
-:heavy_minus_sign: Your example will no longer be purely self-contained
+:heavy_minus_sign: Your example will no longer be purely self-contained  
 :heavy_minus_sign: Helpers may be wary of running code that downloads files from the internet
 
 <h3 id="heading--other">Other options</h3>
 
 - Annotated bibliography of other reprex data links
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzAyMDQ1OSwtMzY4MzU4OTQyLC0xOD
-gyOTc0MDgwLC0xMjAwOTg2NDgwLDMxODQ0Njk4MiwtNDI4NzQ4
-MjQ5XX0=
+eyJoaXN0b3J5IjpbLTIwOTYyODEzMjMsLTE1MzAyMDQ1OSwtMz
+Y4MzU4OTQyLC0xODgyOTc0MDgwLC0xMjAwOTg2NDgwLDMxODQ0
+Njk4MiwtNDI4NzQ4MjQ5XX0=
 -->
