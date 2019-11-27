@@ -77,8 +77,6 @@ If you can answer **YES** to **ALL** of these questions, then carry on! :grinnin
    
 </details>
 
--1. Really, don't do this unless you have to!! People have every right to not want to run code on their computers that randomly downloads files from the internet. It's up to you to make every effort to avoid needing to go this route, and if you do it, to do it as transparently as possible.
-
 ### What's going to happen
 
 You will start by **exporting** your data in a text-only format (e.g., CSV) and **posting** it online. Since your reproducible example will depend on the link to your online data working, and since people may reasonably be suspicious of code that downloads files from the internet, you'll use a method for posting your data that is transparent and robust.
