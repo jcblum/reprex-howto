@@ -1,17 +1,17 @@
-# Newbie
+# Beginner's guide to making a reproducible example
 
-The gold standard for communicating about code problems is to compose a **small, self-contained reproducible example**. A reproducible example is a chunk of code that will run on anybody's computer and demonstrates the problem you are having. When you're asking a code question here, people will expect you to at least _try_ to create a reproducible example to go with it.
+The gold standard for communicating about code problems is to compose a **small, self-contained reproducible example**. A reproducible example is a chunk of code that will run on anybody's computer and demonstrates the problem you are having. When you're asking a code question here, people will expect you to try to create a reproducible example to go with it.
 
 A reproducible example needs to be both *easy to read* and *easy to run*. This means your reproducible example should be:
 
 - **Complete**: it can be copied and pasted in a single action and it will run as-is, with no modifications
-- **Self-contained**: it does not make references to anything that won't exist on somebody else's computer (e.g., locations on a hard drive or R objects that were created outside of the reproducible example code)
+- **Self-contained**: it does not make references to anything that won't exist on somebody else's computer (e.g., locations of files on your computer or R objects that were created outside of the reproducible example code)
 - **As small as possible**: it is focused on demonstrating a single problem, without distractions from unrelated bits of code
 - **Well-formatted**: it uses proper code formatting and a consistent, readable style
 
 Composing good reproducible examples is a skill that takes time and practice to learn, but it is worth the effort. Honing this skill makes you better at thinking about code, and makes it much more likely that you will find the help you need quickly.
 
-### I have no idea what I'm doing, and now people are demanding a reprex. Can't anybody just help?
+### I have no idea what I'm doing, and now people are demanding a "reprex". Can't anybody just help?
 
 When you're just starting out, being asked to make a reproducible example might feel daunting. That's understandable! But people here aren't trying to put obstacles in front of you by asking for a reproducible example. Debugging code problems when you can't see and interact with the code yourself is challenging, and helpers truly need the specific information that a reproducible example provides. Without one, many questions are simply impossible for anyone here to answer.
 
@@ -28,7 +28,6 @@ So give it a try and do your best. A question with an imperfect reproducible exa
 ## Step by step
 
 0. Install the `reprex` package
-1. Install the `datapasta` package (Optional)
 
 ### Make it complete
 
@@ -48,11 +47,11 @@ Are you trying to use data? Here are some things that **will not work**:
 
 #### My data is already loaded in R!
 
-If you want to use a data frame from your R workspace in your reproducible example, then you should first try [**the `dput()` method**]() for generating self-contained data.
+If you want to use a data frame from your R workspace in your reproducible example, then you should first try [**the `dput()` method**](reprexdata_dput.md) for generating self-contained data.
 
 #### My data is in a spreadsheet!
 
-If the data you want to use in your reproducible example are currently living in a spreadsheet, then you should first try [**the `datapasta` method**]() for generating self-contained data.
+If the data you want to use in your reproducible example are currently living in a spreadsheet, then you should first try [**the `datapasta` method**](reprexdata_datapasta.md) for generating self-contained data.
 
 :stop_sign: This is _not_ a good way to load data into R for general use! If your problem is figuring out how to load your data, check out the [RStudio Data Import Wizard](https://support.rstudio.com/hc/en-us/articles/218611977-Importing-Data-with-RStudio)
  and this helpful [Data Import Cheatsheet](https://resources.rstudio.com/rstudio-developed/data-import).
