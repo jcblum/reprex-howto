@@ -75,7 +75,7 @@ If you can answer **YES** to **ALL** of these questions, then carry on! :grinnin
 
    With a few lines of code, R can construct all sorts of example data for you, and make it as big or as small as you need. Using example data generated in code is the most purely self-contained method possible, and can prevent your helpers from getting distracted by details of your real data that aren't related to your problem. It's also a good skill to develop if your real data are often too sensitive to share. Check out this [list of recommended data generating functions]() to get started.
    
-</summary>
+</details>
 
 -1. Really, don't do this unless you have to!! People have every right to not want to run code on their computers that randomly downloads files from the internet. It's up to you to make every effort to avoid needing to go this route, and if you do it, to do it as transparently as possible.
 
