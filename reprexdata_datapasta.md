@@ -37,7 +37,7 @@ If you can answer **YES** to **ALL** of these questions, then you're ready to pa
    
    If you _really, truly_ need to include a whole lot of your own data in a reproducible example, then try [hosting your data online]().
    
-</summary>
+</details>
 
 <h2 id='heading--howto'>How to use <code>datapasta</code></h2>
 
