@@ -59,7 +59,7 @@ The result will be a few lines of code in your reproducible example script that 
 
 2. Open your spreadsheet, then **select and copy** the data you want to use in your reproducible example (don't forget the column headers!).
 
-   ![awesome_data_sheet_selected](awesome_data_sheet_selected.png)
+   ![awesome_data_sheet_selected](img/awesome_data_sheet_selected.png)
 
 3. **Move your cursor to your script file**, placing it on a blank line.
 
