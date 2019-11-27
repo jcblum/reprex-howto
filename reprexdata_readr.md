@@ -53,7 +53,7 @@ Finally, you'll add a line to your reproducible example script that uses `read_t
 
 3. Open your spreadsheet, then **select and copy** the data you want to use in your reproducible example (don't forget the column headers!).
 
-   ![awesome_data_sheet_selected](awesome_data_sheet_selected.png)
+   ![awesome_data_sheet_selected](img/awesome_data_sheet_selected.png)
 
 4. **Move your cursor to your script file**, placing it on a blank line.
 
