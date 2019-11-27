@@ -148,7 +148,7 @@ The result will be a block of code in your reproducible example script that recr
 
 If you're using the RStudio IDE, then you may have the **Auto-indent code after paste** option turned on. This causes `dput()` code recipes to become extremely wide (and even uglier than usual) as soon as you paste them into your script file.
 
-![wide_dput_screenshot]()
+![wide_dput_screenshot](img/wide_dput_screenshot.png)
 
 You can turn the auto-indent option off (Tools > Global Options… > Code > Editing). But perhaps you like this feature in general and just want a quick fix for your pasted `dput()` recipes? If so, try this:
 
@@ -158,7 +158,7 @@ You can turn the auto-indent option off (Tools > Global Options… > Code > Edit
    - **Reflow Comment**, then…
    - **Comment/Uncomment Lines** one more time
 
-![reflow_comment_trick_gif]()
+![reflow_comment_trick_gif](img/reflow_comment_trick.gif)
 
 Ahhh, much better! :relieved: And of course, all of those commands have [keyboard shortcuts](https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts), which is even speedier.
 
