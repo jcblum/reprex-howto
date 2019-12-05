@@ -1,6 +1,7 @@
 [tips-code]: https://github.com/jcblum/community-faqs/blob/master/code-formatting_6246.md
 [reprex]: reprex.md
 [newbie]: reprex_newbie.md
+[package]: reprex_package.md
 [install]: reprex_install-packages.md
 [shiny-cloud]: reprex_shiny_cloud.md
 [data]: reprexdata_advanced.md
