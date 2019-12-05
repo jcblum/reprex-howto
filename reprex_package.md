@@ -58,7 +58,7 @@ You'll **select** all the lines of code in your reproducible example. Then you'l
 
 When it's done, a **preview** of your formatted reproducible example will appear in the RStudio Viewer pane, and you'll be supplied with a **special chunk of text**, all ready for pasting into a post here! :grinning:
 
-- **Note:** the details of the process differ a bit depending on whether you're using RStudio Desktop or a version of the IDE that you access through a web browser such as RStudio Server or RStudio Cloud. Don't worry, everything is explained below! :relieved:
+- **Note:** the details of the process differ a bit depending on whether you're using [RStudio Desktop](https://rstudio.com/products/rstudio/#rstudio-desktop) or a version of the IDE that you access through a web browser such as [RStudio Server](https://rstudio.com/products/rstudio/#rstudio-server) or [RStudio Cloud](https://rstudio.cloud/). Don't worry, everything is explained below! :relieved:
 
 ### Step by step
 
@@ -77,7 +77,7 @@ When it's done, a **preview** of your formatted reproducible example will appear
 4. The message `Rendering reprex...` will appear in the console as `reprex` does its work. What happens next depends on what version of the RStudio IDE you're using, so now it's time to choose your own adventure…
 
    <details>
-   <summary>🖥 <strong><a href = "https://rstudio.com/products/rstudio/ #rstudio-desktop">RStudio Desktop</a>:</strong> RStudio is an app  installed on my computer!</summary>
+   <summary>🖥 <strong><a href = "https://rstudio.com/products/rstudio/#rstudio-desktop">RStudio Desktop</a>:</strong> RStudio is an app  installed on my computer!</summary>
  
     - A lovely **preview** of the formatted output `reprex` has prepared  will appear in the Viewer pane :nail_care:. (This is just for looking  at! Don't try to copy and paste the preview)
     - A second message will appear in the console: `Rendered reprex is on  the clipboard.` :astonished:
