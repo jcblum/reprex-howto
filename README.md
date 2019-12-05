@@ -2,9 +2,22 @@
 
 Advice for mastering some operational details of creating reproducible code examples when seeking help. Destined for community.rstudio.com.
 
-## [What's a reproducible example, and how do I create one?][reprex]
+- [All about reproducible examples][reprex]
 
 - [Beginner's guide to making a reproducible example][newbie]
+
+- [How to get data into your reproducible example][data]
+  - [Self-contained data with `datapasta`][datapasta]
+  - [Self-contained data with `dput()`][dput]
+  - [Self-contained data with `read_tsv()`][readr]
+  - [Self-contained data with data posted online][remote]
+
+- [Use the `reprex` package to prepare your reproducible example for posting][package]
+
+## In development
+
+- [Shiny reprex using RStudio Cloud][shiny-cloud]
+- [How to get help with installing packages][install]
 
 [tips-code]: https://github.com/jcblum/community-faqs/blob/master/code-formatting_6246.md
 [reprex]: reprex.md
