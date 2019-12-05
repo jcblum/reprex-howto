@@ -33,10 +33,10 @@ If you can answer **YES** to **ALL** of these questions, then go forth and `dput
 <summary>Click here for more help</summary>
 
 1. :spiral_notepad: My data is in a spreadsheet or text file (such as a CSV).
-   - Try the [`datapasta` method]() instead!
+   - Try the [`datapasta` method][datapasta] instead!
 
 2. :thinking: My data is in a `data.table`.
-   - You _can_ still use `dput()`, but you'll need to do a few special maneuvers to get things working. See the [instructions below]().
+   - You _can_ still use `dput()`, but you'll need to do a few special maneuvers to get things working. See the [instructions below](#heading--datatable).
 
 3. :sweat_smile: My data frame or tibble is longer than 20 rows.
 
@@ -84,7 +84,7 @@ If you can answer **YES** to **ALL** of these questions, then go forth and `dput
       wb_sample_n
       wb_sample_groups
       ```
-   If you _really, truly_ need to include a whole lot of your own data in a reproducible example, then try [hosting your data online]().
+   If you _really, truly_ need to include a whole lot of your own data in a reproducible example, then try [hosting your data online][remote].
 </details>
 
 <h2 id='heading--howto'>How to use <code>dput()</code></h2>
