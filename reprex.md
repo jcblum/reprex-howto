@@ -9,7 +9,7 @@
 [readr]: reprexdata_readr.md
 [remote]: reprexdata_remote.md
 
-# What's a reproducible example, and how do I create one?
+# All About Reproducible Examples
 
 The gold standard for communicating about code problems is to compose a **small, self-contained reproducible example** ("reprex" for short). A reproducible example is a chunk of code that both demonstrates the problem you are having _and_ will run on anybody's computer. When you're asking a code question here, people will expect you to try to create a reproducible example to go with it.
 
