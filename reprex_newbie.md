@@ -1,3 +1,14 @@
+[tips-code]: https://github.com/jcblum/community-faqs/blob/master/code-formatting_6246.md
+[reprex]: reprex.md
+[newbie]: reprex_newbie.md
+[install]: reprex_install-packages.md
+[shiny-cloud]: reprex_shiny_cloud.md
+[data]: reprexdata_advanced.md
+[dput]: reprexdata_dput.md
+[datapasta]: reprexdata_datapasta.md
+[readr]: reprexdata_readr.md
+[remote]: reprexdata_remote.md
+
 # Beginner's guide to making a reproducible example
 
 The gold standard for communicating about code problems is to compose a **small, self-contained reproducible example**. A reproducible example is a chunk of code that will run on anybody's computer and demonstrates the problem you are having. When you're asking a code question here, people will expect you to try to create a reproducible example to go with it.
@@ -47,11 +58,11 @@ Are you trying to use data? Here are some things that **will not work**:
 
 #### My data is already loaded in R!
 
-If you want to use a data frame from your R workspace in your reproducible example, then you should first try [**the `dput()` method**](reprexdata_dput.md) for generating self-contained data.
+If you want to use a data frame from your R workspace in your reproducible example, then you should first try [**the `dput()` method**][dput] for generating self-contained data.
 
 #### My data is in a spreadsheet!
 
-If the data you want to use in your reproducible example are currently living in a spreadsheet, then you should first try [**the `datapasta` method**](reprexdata_datapasta.md) for generating self-contained data.
+If the data you want to use in your reproducible example are currently living in a spreadsheet, then you should first try [**the `datapasta` method**][datapasta] for generating self-contained data.
 
 :stop_sign: This is _not_ a good way to load data into R for general use! If your problem is figuring out how to load your data, check out the [RStudio Data Import Wizard](https://support.rstudio.com/hc/en-us/articles/218611977-Importing-Data-with-RStudio)
  and this helpful [Data Import Cheatsheet](https://resources.rstudio.com/rstudio-developed/data-import).

@@ -1,4 +1,15 @@
-# Self-contained data with `dput`
+[tips-code]: https://github.com/jcblum/community-faqs/blob/master/code-formatting_6246.md
+[reprex]: reprex.md
+[newbie]: reprex_newbie.md
+[install]: reprex_install-packages.md
+[shiny-cloud]: reprex_shiny_cloud.md
+[data]: reprexdata_advanced.md
+[dput]: reprexdata_dput.md
+[datapasta]: reprexdata_datapasta.md
+[readr]: reprexdata_readr.md
+[remote]: reprexdata_remote.md
+
+# Self-contained data with `dput()`
 
 Including data in a self-contained way is a common stumbling block for people who are new to creating reproducible examples. Here's how the built-in R function `dput()` can help.
 

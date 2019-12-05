@@ -1,3 +1,14 @@
+[tips-code]: https://github.com/jcblum/community-faqs/blob/master/code-formatting_6246.md
+[reprex]: reprex.md
+[newbie]: reprex_newbie.md
+[install]: reprex_install-packages.md
+[shiny-cloud]: reprex_shiny_cloud.md
+[data]: reprexdata_advanced.md
+[dput]: reprexdata_dput.md
+[datapasta]: reprexdata_datapasta.md
+[readr]: reprexdata_readr.md
+[remote]: reprexdata_remote.md
+
 # Self-contained data with data posted online
 
 Including data in a self-contained way is a common stumbling block for people who are new to creating reproducible examples, especially when demonstrating your problem requires using a specific data set that is too big for [other methods](). As a last resort when other approaches have failed, here's how you can include remote, online data in a reproducible example.

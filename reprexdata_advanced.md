@@ -1,4 +1,15 @@
-# Data for your reprex
+[tips-code]: https://github.com/jcblum/community-faqs/blob/master/code-formatting_6246.md
+[reprex]: reprex.md
+[newbie]: reprex_newbie.md
+[install]: reprex_install-packages.md
+[shiny-cloud]: reprex_shiny_cloud.md
+[data]: reprexdata_advanced.md
+[dput]: reprexdata_dput.md
+[datapasta]: reprexdata_datapasta.md
+[readr]: reprexdata_readr.md
+[remote]: reprexdata_remote.md
+
+# How to get data into your reproducible example
 
 Questions discussed here often involve working with data. How do you include data in a self-contained, reproducible example?
 

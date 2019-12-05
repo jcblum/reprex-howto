@@ -1,3 +1,14 @@
+[tips-code]: https://github.com/jcblum/community-faqs/blob/master/code-formatting_6246.md
+[reprex]: reprex.md
+[newbie]: reprex_newbie.md
+[install]: reprex_install-packages.md
+[shiny-cloud]: reprex_shiny_cloud.md
+[data]: reprexdata_advanced.md
+[dput]: reprexdata_dput.md
+[datapasta]: reprexdata_datapasta.md
+[readr]: reprexdata_readr.md
+[remote]: reprexdata_remote.md
+
 # What's a reproducible example, and how do I create one?
 
 The gold standard for communicating about code problems is to compose a **small, self-contained reproducible example** ("reprex" for short). A reproducible example is a chunk of code that both demonstrates the problem you are having _and_ will run on anybody's computer. When you're asking a code question here, people will expect you to try to create a reproducible example to go with it.
@@ -43,7 +54,7 @@ Most people here are helping others for free, on their own time. Every extra ste
 
 ### Start here!
 
-[LINK TO NOVICE REPREX INSTRUCTIONS](reprex_newbie.md)
+[Beginner's guide to creating a reproducible example][newbie]
 
 ### :confused: Sorry, I read that and I'm still confused
 
@@ -64,7 +75,7 @@ Different explanations work better for different people. Maybe one of these reso
 
 ## Looking to up your reprex game?
 
-- :page_with_curl: [LINK TO REPREX DATA ARTICLE](reprexdata_advanced.md) (Community guide)
+- :page_with_curl: [How to get data into your reproducible example][data] (Community guide)
 - :link: [How to make a great R reproducible example? aka MCVE](https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example-aka-mcve-minimal-complete-and-ver) (StackOverflow question)
 - :link: [Three tips for posting good questions to R-help and Stack Overflow](https://www.r-bloggers.com/three-tips-for-posting-good-questions-to-r-help-and-stack-overflow/) (R-Bloggers post)
 - :book: [The R Inferno, Circle 9: Unhelpfully Seeking Help](http://www.burns-stat.com/pages/Tutor/R_inferno.pdf), by Patrick Burns (classic reference to the tricky bits of R, written as a parody of [Dante's _Inferno_](https://en.wikipedia.org/wiki/Inferno_(Dante)))
