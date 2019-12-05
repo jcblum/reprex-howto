@@ -186,7 +186,8 @@ sea_stars
 
 <h3 id="heading--other">Other options</h3>
 
-- Annotated bibliography of other reprex data links
+- People here suggested several more ways of getting data into a reprex in this discussion: https://community.rstudio.com/t/best-practices-how-to-prepare-your-own-data-for-use-in-a-reprex-if-you-can-t-or-don-t-know-how-to-reproduce-a-problem-with-a-built-in-dataset/5346
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTc2NjM2NTg3LC0xNTMwMjA0NTksLTM2OD
 M1ODk0MiwtMTg4Mjk3NDA4MCwtMTIwMDk4NjQ4MCwzMTg0NDY5
