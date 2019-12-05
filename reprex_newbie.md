@@ -80,7 +80,7 @@ If the data you want to use in your reproducible example are currently living in
 - It automatically **formats** both **your code _and the code's output_** in a way that is easy to read when posted here, and also easy for your helpers to copy, paste, and run themselves.
 - It helps you **verify** that your reproducible example really is **complete and self-contained** by running the code in a separate, self-contained R session while generating the formatted output.
 
-You don't *have* to use `reprex` to prepare your reproducible examples, but we **strongly recommend** that you try to do so. There is one major exception to this recommendation: you can't use `reprex` to prepare Shiny reproducible examples. [LINK TO GUIDANCE ON HOW TO MAKE SHINY REPREXES]()
+You don't *have* to use `reprex` to prepare your reproducible examples, but we **strongly recommend** that you try to do so. There is one major exception to this recommendation: you can't use `reprex` to prepare Shiny reproducible examples. [SHINY GUIDANCE]()
 
 (simplest possible instructions for running `reprex` on the reproducible example script)
 (don't forget to *examine the output*: `reprex` keeps you honest!
@@ -90,6 +90,7 @@ You don't *have* to use `reprex` to prepare your reproducible examples, but we *
 - Complete code
 - `str()` on your data frame
 - Format correctly (link)
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbNzYxOTI3MjA1LDEwMjM4MDAzMTYsLTE3Nz
 A5NTMyMjQsODE4NTA3ODczLC02NDA1MTU0OThdfQ==
