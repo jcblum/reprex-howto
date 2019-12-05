@@ -56,7 +56,7 @@ You will start by making sure you're set up to use the `reprex` package. You'll 
 
 You'll **select** all the lines of code in your reproducible example. Then you'll use an **[RStudio Addin](http://rstudio.github.io/rstudioaddins/)** to tell `reprex` to process the lines of code you just selected. The `reprex` package will begin transforming your reproducible example into formatted output :sparkles:.
 
-A **preview** of your formatted reproducible example will appear in the RStudio Viewer pane, and you'll be supplied with a **special chunk of text**, all ready for pasting into a post here! :grinning:
+When it's done, a **preview** of your formatted reproducible example will appear in the RStudio Viewer pane, and you'll be supplied with a **special chunk of text**, all ready for pasting into a post here! :grinning:
 
 - **Note:** the details of the process differ a bit depending on whether you're using RStudio Desktop or a version of the IDE that you access through a web browser such as RStudio Server or RStudio Cloud. Don't worry, everything is explained below! :relieved:
 
