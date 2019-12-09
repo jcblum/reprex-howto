@@ -111,7 +111,9 @@ When it's done, a **preview** of your formatted reproducible example will appear
     - **Type** `1` next to `Selection:` and press <kbd>Return</kbd> (or <kbd>Enter</kbd>).
       
       A window will appear, containing something that looks like your reproducible example, but with some extra stuff at the top and bottom (and probably some extra lines in the middle). This is the **special chunk of text** that `reprex` produced!
-    
+
+      ![Output window, with all lines selected]()
+
     - **Select** **ALL** of the text in the window and **copy** it. Make sure you don't miss the very top or very bottom lines!
     - Click the <kbd><strong>Cancel</strong></kbd> button at the bottom of the window (this might seem odd, but clicking <kbd>Save</kbd> doesn't really do anything here).
        
