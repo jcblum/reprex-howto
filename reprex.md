@@ -20,19 +20,6 @@ A reproducible example needs to be both *easy to read* and *easy to run*, becaus
 Composing good reproducible examples is a skill that takes time and practice to learn, but experienced coders agree that it is the best thing you can do to  increase your chances of getting the help you need.
 -->
 
-<!--
-### What's in a Reproducible Example?
-
-Parts of a reproducible example:
-
-1. **background information** - Describe what you are trying to do. What have you already done?
-1.  **complete set up** - include any `library()` calls and data to reproduce your issue.
-**data for a reprex**: [Here's a discussion on setting up data for a reprex](https://community.rstudio.com/t/best-practices-how-to-prepare-your-own-data-for-use-in-a-reprex-if-you-can-t-or-don-t-know-how-to-reproduce-a-problem-with-a-built-in-dataset/5346)
-2. **make it run** - include the minimal code required to reproduce your error on the data provided.
-People should be able to copy and paste your `code chunk` and get the same error.
-[How do I format my text so it has nice `code chunks`?](https://community.rstudio.com/t/faq-how-to-make-your-code-look-nice-markdown-formatting/6246)
-3. **minimal** - strip away everything that is not directly related to your problem.  This usually involves creating a much smaller and simpler set of code and data compared to that which created your issue.
--->
 ### The `reprex` package helps prepare reproducible examples
 
 When creating a reprex by hand, it’s easy to accidentally miss something that means your code can’t be run on someone else’s computer. Avoid this problem by using the [`reprex`-package](https://www.tidyverse.org/help/).
@@ -42,7 +29,7 @@ The `reprex` package will save effort for you and others who want to help.
 
 A reproducible example needs to be both *easy to read* and *easy to run*, because helpers will need to both read your code and **run it themselves** in order to figure out what's wrong and suggest solutions.
 
-Most people here are helping others for free, on their own time. Every extra step that it takes for helpers to work on your problem is a reason for them to move on to a different question.
+Everybody has plenty of their own work to do, and limited time to help others. Every extra step that it takes for helpers to work on your problem is a reason for them to move on to a different question.
 
 <!--
 - Helpers need to both **read and run** your code in order to figure out what's wrong.
@@ -55,7 +42,7 @@ Most people here are helping others for free, on their own time. Every extra ste
 
 ### Start here!
 
-[Beginner's guide to creating a reproducible example][newbie]
+- [Beginner's guide to creating a reproducible example][newbie]
 
 ### :confused: Sorry, I read that and I'm still confused
 
@@ -92,7 +79,11 @@ There are a few cases where specific methods are necessary for composing a good 
 
 ### Shiny reproducible examples
 
+[SHINY GUIDANCE]()
+
 ### Package installation problems
+
+[install.packages FAQ]()
 
 ### Personal, Private, and Protected Information
 
