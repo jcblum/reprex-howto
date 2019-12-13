@@ -16,6 +16,8 @@ Including data in a self-contained way is a common stumbling block for people wh
 
 - [Is online data the right choice?](#heading--rightchoice)   
 - [How to use online data in a reproducible example](#heading--howto)
+- [Tweaks](#heading--tweaks)
+  - [Can I post my data somewhere other than GitHub?](#heading--elsewhere)
 
 <h2 id="heading--rightchoice">🛑 Is online data the right choice?</h2>
 
@@ -88,6 +90,8 @@ If you can answer **YES** to **ALL** of these questions, then carry on! :grinnin
    With a few lines of code, R can construct all sorts of example data for you, and make it as big or as small as you need. Using example data generated in code is the most purely self-contained method possible, and can prevent your helpers from getting distracted by details of your real data that aren't related to your problem. It's also a good skill to develop if your real data are often too sensitive to share. Check out this [list of recommended data generating functions]() to get started.
    
 </details>
+
+<h2 id="heading--howto">How to use online data in a reproducible example</h2>
 
 ### What's going to happen
 
@@ -171,8 +175,10 @@ Finally, you'll add a line to your reproducible example script that uses an appr
    ```
 	
    You're done! :tada:
-   
-### Can I post my data somewhere other than GitHub?
+
+<h2 id="heading--tweaks">Tweaks</h2>
+
+<h3 id='heading--elsewhere'>Can I post my data somewhere other than GitHub?</h3>
 
 - Don't make people download files and move them around! 
 - Don't use FTP sites or anonymous paste sites!
