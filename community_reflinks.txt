@@ -1,0 +1,11 @@
+[tips-code]: https://community.rstudio.com/t/faq-draft-tips-for-writing-r-related-questions/47267
+[reprex]: https://community.rstudio.com/t/faq-draft-all-about-reproducible-examples/47255
+[newbie]: https://community.rstudio.com/t/faq-draft-beginners-guide-to-making-a-reproducible-example/47263
+[package]: https://community.rstudio.com/t/faq-draft-use-the-reprex-package-to-prepare-your-reproducible-example-for-posting/47264
+[install]: https://github.com/jcblum/reprex-howto/blob/master/reprex_install-packages.md
+[shiny-cloud]: https://github.com/jcblum/reprex-howto/blob/master/reprex_shiny_cloud.md
+[data]: https://community.rstudio.com/t/faq-draft-how-to-get-data-into-your-reproducible-example/47256
+[dput]: https://community.rstudio.com/t/faq-draft-self-contained-data-with-dput/47258
+[datapasta]: https://community.rstudio.com/t/faq-draft-self-contained-data-with-datapasta/47259
+[readr]: https://community.rstudio.com/t/faq-draft-self-contained-data-with-read-tsv/47260
+[remote]: https://community.rstudio.com/t/faq-draft-self-contained-data-with-data-posted-online/47262
