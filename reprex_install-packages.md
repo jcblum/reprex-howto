@@ -34,7 +34,9 @@ There are a few package installation problems that crop up over and over. Before
 
 ### Old R
 
-### Default library path with non-ASCII characters (is this Windows only?)
+### Default library path with non-ASCII characters
+
+(is this Windows only?)
 
 ### Need R Tools on Windows
 
