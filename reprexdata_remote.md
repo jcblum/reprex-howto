@@ -182,7 +182,7 @@ Finally, you'll add a line to your reproducible example script that uses an appr
 
 - Don't make people download files and move them around! 
 - Don't use FTP sites or anonymous paste sites!
-- GitHub previews let people inspect your data file to make sure it's trustworthy
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTAxMzE2OTM3NSwtMTQyMjc5MjI3Miw1Mj
 M0NDYwNzQsNDk4NzE3NDg1LDIwMDM3NzMzODgsLTI4NTYxMTA2
