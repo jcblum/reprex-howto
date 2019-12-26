@@ -76,9 +76,6 @@ R makes it pretty easy to construct small data frames by hand. Here are some tip
 
 #### Making a sample data set using `data.frame()`
 
-:info: Did you notice the extra parentheses around each `name <- data.frame(...)` assignment statement? This makes R automatically print the resulting object. It's a nice trick to use when making reprexes, since it lets you and your audience quickly check that the data frame came out the way you expect!
-
-
 If you don’t mind typing, you can stick to basics and make your data frame like this:
 
 ``` r
@@ -102,7 +99,9 @@ str(very_basic)
 #>  $ var_numeric: num  4.3 3.1 4.5 2.8 6.4 5.3
 ```
 
-But R can also help you come up with your example values. This is especially useful if the data are supposed to follow a particular pattern or structure.
+> :information_source: Did you notice the extra parentheses around the `name <- data.frame(...)` assignment statement? This makes R automatically print the resulting object. It's a nice trick to use when making reprexes, since it lets you and your audience quickly check that the data frame came out the way you expect!
+ 
+R can also help you come up with your example values. This is especially useful if the data are supposed to follow a particular pattern or structure.
 
 ``` r
 set.seed(1)
