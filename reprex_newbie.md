@@ -67,7 +67,7 @@ Once you've got a solid draft, you'll use the `reprex` package to check your wor
 
 #### Before you begin
 
-Your goal in making a reproducible example is to demonstrate a problem you're having. So you'll need to start with an idea of what your example is trying to show people. Here are some common examples of things people use reproducible examples to demonstrate:
+Your goal in making a reproducible example is to demonstrate a problem you're having. So you'll need to start with an idea of what your example is trying to show people. Here are some common things people use reproducible examples to demonstrate:
 
 - Your code is producing an error message
 - Your code does not give you the result you expected
@@ -133,7 +133,7 @@ Don't worry, there are plenty of self-contained ways to get data into a reproduc
 
 By now you should have a reproducible example script that includes **all** the code and data necessary to demonstrate your problem, and does so in a **self-contained** way that will run on anybody's computer. The last step is to take a critical look at your reproducible example script and see if it can be **made simpler**.
 
-This might seem like an optional step, but it's pretty important! The hardest part about getting help online is getting to the point where others understand your problem. Everybody has plenty of their own work to do, and limited time to help others. To get the best help possible, your reproducible example needs to be as **easy to understand** as possible, and that means removing distracting details and extraneous steps.
+This might seem like an optional step, but it's pretty important! The hardest part about finding help online is getting to the point where others understand your problem. Everybody has plenty of their own work to do, and limited time to help others. To get the best help possible, your reproducible example needs to be as **easy to understand** as possible, and that means removing distracting details and extraneous steps.
 
 You may feel that extra details or steps in your reproducible example more faithfully describe how you encountered your problem. But people helping you don't usually need to know the particular twisty path you took to getting stuck :dizzy_face:. They just need to clearly see where you're stuck now.
 
@@ -167,13 +167,33 @@ If you're planning to post your reproducible example on this site, start with th
 
 #### If you're not using the `reprex` package
 
-If you choose _not_ to use the `reprex` package on your reproducible example, then it's still up to you to **make sure that the code you post is [properly formatted](https://community.rstudio.com/t/6246)**. Screenshots are [**not** an acceptable substitute](https://community.rstudio.com/t/6824#heading--screenshot) for properly formatted code!
+If you choose not to use the `reprex` package on your reproducible example, then it's still up to you to **make sure that the code you post is [properly formatted](https://community.rstudio.com/t/6246)**. Screenshots are [**not** an acceptable substitute](https://community.rstudio.com/t/6824#heading--screenshot) for properly formatted code!
 
 <h2 id="heading--fallback">🔥🚒 Reprex disaster? A last resort fallback</h2>
 
-- Complete code
-- `str()` on your data frame
-- Format correctly
+Did you make an honest attempt at composing a reproducible example and wind up [even more stuck](https://xkcd.com/1739/) than before? :confounded: That's a frustrating situation, and it's very tempting to give up completely. But don't lose heart! There are still things you can do to help your helpers and increase your chances of finding the answers you need.
+
+If you're struggling to make a proper reproducible example, focus on providing as much of **the information that your helpers need** as you can. Make sure your question includes these **key items**:
+
+1. The **complete script** that you were working on when you got stuck, **[properly formatted](https://community.rstudio.com/t/6246)**
+   - Even experts usually can't tell what's wrong with your code from only an error message or a verbal description of the problem (this often surprises people who are new to writing code!). Symptoms of code problems can have many possible causes, and problems can start several lines away from where they reveal themselves, so people need to see the full context of what you were doing. 
+2. The **result of running `str()`** on any data frames you were working with, **[properly formatted](https://community.rstudio.com/t/6246)**
+   - `str()` (for "structure") is a function that reveals how R understands your data frame internally. Many common problems can be diagnosed by examining `str()` output.
+
+Remember, screenshots are [**not** an acceptable substitute](https://community.rstudio.com/t/6824#heading--screenshot) for properly formatted code and console output!
+
+### Have realistic expectations
+
+Even if you've done your best to give your helpers useful information, it may still be difficult (or impossible :disappointed:) to answer your question without a reproducible example. Your question may take longer to attract answers, and helpers may only be able to offer limited help. Be patient, and do what you can to answer any follow-up questions. In the end, your best bet may be to give the reproducible example another try.
+
+### If you need help making a reproducible example, ask about that in a separate topic
+
+We welcome questions about how to make reproducible examples! :grinning: But it gets confusing when questions about a code problem are mixed up with questions about other problems you encountered while trying to make a reproducible example to illustrate your code problem :dizzy_face:.
+
+- Start a new topic explaining where you got stuck when working on your reproducible example, and **include a link** to the topic that contains your original question
+- Back in the original question topic, **include a link** to your reprex-problem topic
+
+All this cross-linking will help people see what you've tried, while keeping the individual topics easy to digest.
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbNzYxOTI3MjA1LDEwMjM4MDAzMTYsLTE3Nz
