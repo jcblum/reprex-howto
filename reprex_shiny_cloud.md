@@ -12,16 +12,22 @@
 
 # Shiny reprex using RStudio Cloud
 
-## :stop_sign: Is RStudio Cloud the right choice for sharing your Shiny reproducible example?
+- [:stop_sign: Is RStudio Cloud the right choice for sharing your Shiny reproducible example?](#heading--rightchoice)
+- [How to share a Shiny reproducible example using RStudio Cloud](#heading--howto)
+- [Tweaks](#heading--tweaks)
+	 - [Skip steps by creating a new Cloud Project from a GitHub repo](#heading--github)
+	 - [Ensure that package versions match exactly](#heading--pkgversion)
 
-- You've already tried boiling your problem down to example code inside a [standard reprex skeleton](), and got stuck
-- The app behavior you need to demonstrate involves (?? what's necessarily complex? modules? multiple interacting scripts? lots of customization?)
+<h2 id="heading--rightchoice">🛑 Is RStudio Cloud the right choice for sharing your Shiny reproducible example?</h2>
+
+- You've already tried boiling your problem down to example code inside a [standard Shiny reprex skeleton](), and got stuck
+- The app behavior you need to demonstrate involves… _(?? what's necessarily complex? modules? multiple interacting scripts? lots of customization?)_
 - Your Shiny reproducible example can run within RStudio Cloud's resource limits:
-	- Necessary packages must be able to install within the 1GB memory limit. Thanks to RSPM's support for Linux binaries, this often isn't a problem since very few packages should need to compile.
+	- Necessary packages must be able to install within the 1GB memory limit. But thanks to RSPM's support for Linux binaries, very few packages should need to compile.
 	- Data processing, model fitting, or other computations performed by app code must be able to operate within the 1GB memory limit.
 	- Apps that rely on unusual system dependencies external to R may not be able to run on RStudio Cloud.
 
-## How to share a Shiny reproducible example using RStudio Cloud
+<h2 id="heading--howto">How to share a Shiny reproducible example using RStudio Cloud</h2>
 
 ### What's going to happen
 
@@ -67,11 +73,16 @@
 
 11. Share a link to your project in your topic on Community. To get the project link, just copy the web address from the browser tab where the project is open. It should look like: `https://rstudio.cloud/project/123456`.
 
-## Tweaks
+<h2 id="heading--tweaks">Tweaks</h2>
 
-### Skip steps by creating a new Cloud Project from a GitHub repo
+<h3 id="heading--github">Skip steps by creating a new Cloud Project from a GitHub repo</h3>
 
-### Ensure that package versions match exactly by using `packrat`/`renv`
+- Assume comfort with git/GitHub
+
+<h3 id="heading--pkgversion">Ensure that package versions match exactly</h3>
+
+- `packrat`/`renv`
+
 <!--stackedit_data:
 eyJkaXNjdXNzaW9ucyI6eyI1Zm5RUk9MRGZKc1hiT0ZNIjp7In
 N0YXJ0Ijo0Njk4LCJlbmQiOjQ3NzAsInRleHQiOiIjIyMgRW5z
